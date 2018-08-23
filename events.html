@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "description" content="описание о чем веб страничка до 256 символов">
+	<meta name = "keywords" content="web,design,html5,sites,coding">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<script>
+		
+	var flag = 0;
+	function f6(){
+		if(flag == 0){
+			var i = document.getElementById('box1');
+			i.style.display = 'none';
+			flag=1;
+		} 
+		else {
+			var i = document.getElementById('box1');
+			i.style.display = 'block';
+			flag=0;
+		}
+	}
+
+
+	function f8(){
+		var i = document.getElementById('box1');
+		i.style.backgroundColor = 'cyan';
+	}
+	function f9(){
+		var i = document.getElementById('box1');
+		i.style.backgroundColor = 'white';
+	}
+		
+	function f1(){
+		var i = document.getElementById('box1');
+		i.style.color = 'red';
+		i.style.margin = '50px';
+		i.style.border = '1px solid silver';
+		i.style.padding = '10px';
+		i.style.backgroundColor = 'black';
+	}
+
+	function f2(){
+		var i = document.getElementById('box2');
+		i.style.color = 'green';
+		i.style.margin = '50px';
+		i.style.border = '1px solid silver';
+		i.style.padding = '10px';
+		i.style.backgroundColor = 'black';
+	}
+
+
+	function f3(){
+		var i = document.getElementById('box3');
+		i.style.color = 'yellow';
+		i.style.margin = '50px';
+		i.style.border = '1px solid silver';
+		i.style.padding = '10px';
+		i.style.backgroundColor = 'black';
+	}
+
+
+	function f4(){
+		var i = document.getElementById('box4');
+		i.style.color = 'silver';
+				i.style.margin = '50px';
+		i.style.border = '1px solid silver';
+		i.style.padding = '10px';
+		i.style.backgroundColor = 'black';
+	}
+
+
+	function f5(){
+		var i = document.getElementById('box5');
+		i.style.color = 'blue';
+				i.style.margin = '50px';
+		i.style.border = '1px solid silver';
+		i.style.padding = '10px';
+		i.style.backgroundColor = 'black';
+	}
+	</script>
+</head>
+<body>
+	<form>
+		
+	<input type="button" value="red" onclick="f1();">
+	<input type="button" value="green" onclick="f2();">
+	<input type="button" value="yellow" onclick="f3();">
+	<input type="button" value="silver" onclick="f4();">
+	<input type="button" value="blue" onclick="f5();">
+	<input type="button" value="toogle box1" onclick="f6();">
+	
+	</form>
+
+	<div id="box1" onmouseover="f8()" onmouseout="f9()">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ipsum, пустился, если! Текста океана злых составитель родного, свою страна прямо речью что одна всеми ее собрал своего, дал дорогу!</div>
+	<div id="box2">Выйти, ее гор свою агенство даже. Маленький продолжил lorem журчит рот, жизни парадигматическая языкового имеет свой рыбными взгляд жаренные власти своего раз решила коварных назад последний осталось, всеми даже все!</div>
+	<div id="box3">Страна путь большого заголовок которое от всех. Свое, заглавных. Даже единственное свой своего диких рукописи эта встретил, если путь переписали предупредила домах своих использовало, свой лучше вопрос они но, своего. Вершину!</div>
+	<div id="box4">Семантика заглавных своих толку безопасную страна но lorem заголовок переписывается пустился запятой вскоре рыбного, которое имеет. Назад запятых собрал грустный правилами безопасную взгляд речью его точках наш. Диких, свой от всех.</div>
+	<div id="box5">Моей ты собрал строчка лучше оксмокс рыбными большой свою, текста жаренные алфавит своих всемогущая, которое, он буквенных если маленькая напоивший языкового единственное даль рот на берегу. Рыбного свой, ручеек заголовок наш!</div>
+	<div id="box6">Текстами его страна если вскоре вопроса составитель имеет послушавшись однажды страну ее, заглавных даль на берегу от всех предложения напоивший маленькая даже. Своего точках запятых, оксмокс имени страну встретил его залетают взгляд.</div>
+</body>
+</html>
